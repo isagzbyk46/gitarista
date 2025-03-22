@@ -19,7 +19,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_["Kapat"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
         ],
