@@ -5,7 +5,7 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="Pᴀᴜsᴇ","Dur",
+            title="Pᴀᴜsᴇ",
             description=f"ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
             thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
             input_message_content=InputTextMessageContent("/pause"),
