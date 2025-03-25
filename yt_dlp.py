@@ -1,7 +1,7 @@
 import yt_dlp
 
 ydl_opts = {
-    'cookies': '/path/to/cookies.txt',  # Çerez dosyanızın yolu
+    'cookies': 'cookies/cookies.txt',  # Repository içindeki çerez dosyasının yolu
 }
 
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
